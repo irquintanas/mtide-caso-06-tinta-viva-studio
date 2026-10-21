@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: stg_parte
+    description: "El parte diario limpio, con las dos entregas"
+    columns:
+      - name: cita
+        data_tests: [unique, not_null]
+      - name: tatuador
+        data_tests: [not_null]
+      - name: estilo
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["fine line", "tradicional", "realismo", "blackwork", "acuarela", "lettering", "flash day", "neotradicional"]

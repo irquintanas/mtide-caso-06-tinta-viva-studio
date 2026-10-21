@@ -1,0 +1,12 @@
+{
+ "num": 6,
+ "empresa": "Tinta Viva Studio",
+ "subtitulo": "estudio de tatuaje",
+ "contexto": "Tinta Viva quiere su parte de sesiones automatizado. Y le preocupan dos cosas nuevas: la **agenda** (cree que tiene citas pisadas) y las **cancelaciones de última hora**, que ahora registra la web de reservas.",
+ "preguntas": [
+  "¿Qué **estilo** deja menos ingreso por hora?",
+  "¿Qué **tatuador** gasta más tinta por hora?",
+  "¿Qué **máquina** acumula más incidencias por cada 100 horas de uso?",
+  "¿Cuánto dinero se pierde por **cancelaciones de última hora** y qué estilo las concentra?"
+ ]
+}
